@@ -1,0 +1,101 @@
+header{
+	background-color: #5F9EA0;
+	padding: 20px;
+	margin: 10px;
+}
+
+article{
+	background-color: #5694a9;
+	padding: 20px;
+}
+
+section{
+	background-color: #5F9EA0;
+	width: 740px;
+	float: left;
+	min-height: 600px;
+	padding: 20px;
+	margin: 10px;
+}
+
+aside{
+	background-color: #5F9EA0;
+	width: 140px;	
+	float: left;
+	min-height: 600px;
+	padding: 20px;
+	margin: 10px;
+}
+
+footer{
+	background-color: #5F9EA0;
+	clear: both;
+	padding: 20px;
+	margin: 10px;
+}
+
+#container{
+	width: 1000px;
+	margin-left: auto;
+	margin-right: auto;
+}
+
+/*
+wersja 1
+.menu{
+	float: left;
+	min-width: 50px;
+	height: 25px;
+	font-size: 18px;
+	padding: 10px;   
+	border-right: 2px dotted grey;
+}
+
+.end{
+	clear: both;
+}*/
+
+
+
+
+.header{
+/*	background-color: black;*/
+}
+
+.logo{
+	float: left;
+	height: 100px;
+}
+
+nav{
+	/*width: 100px;
+	height: 50px;*/
+/*	background-color: gray;*/
+	float: right;
+}
+
+.header::after{
+	content: "";
+	display: table;
+	clear: both;	
+}
+
+nav li{
+	display: inline-block;
+}
+
+nav a{
+	margin: 0px 10px;
+	text-decoration: none;
+	line-height: 100px;
+	font-size: 25px;
+}
+
+nav ul{
+	padding: 0px;
+	margin: 0px;
+}
+
+article::after{
+	content: "No elo";
+}
